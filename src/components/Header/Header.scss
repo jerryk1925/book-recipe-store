@@ -1,0 +1,22 @@
+.wrapper{
+  background: $primary_background;
+}
+
+.container{
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 16px;
+  min-height: 98px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 700;
+}
